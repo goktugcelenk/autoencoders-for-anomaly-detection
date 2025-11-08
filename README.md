@@ -30,6 +30,12 @@ Both notebooks are designed to illustrate the use of autoencoders for detecting 
 - The MNIST model accurately reconstructs normal digits and identifies unseen or distorted samples as anomalies.  
 - The time-series model achieves stable detection of synthetic anomalies with minimal false positives by adjusting detection thresholds based on PR curves.
 
+<img width="984" height="484" alt="image" src="https://github.com/user-attachments/assets/9ec9c84e-b4d2-4072-b365-60ae59c42c63" />
+
+The figure above shows the reconstruction error for all test samples.  
+The left region corresponds to normal signals, where the autoencoder achieves low and stable errors.  
+The right region represents abnormal signals with unseen frequency and amplitude combinations, leading to higher reconstruction errors and detected anomalies.
+
 ---
 
 ## Installation
